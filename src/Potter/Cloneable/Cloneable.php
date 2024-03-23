@@ -10,7 +10,7 @@ use \Potter\Container\{
     StaticContainerTrait
 };
 
-class Cloneable extends AbstractCloneable implements ContainerInterface
+final class Cloneable extends AbstractCloneable implements ContainerInterface
 {
     use CloneableTrait, ContainerTrait, StaticContainerTrait;
 }
