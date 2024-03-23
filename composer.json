@@ -3,7 +3,9 @@
     "description": "PHP Cloneable Implementation",
     "type": "metapackage",
     "require": {
-        "php": "^8.3"
+        "php": "^8.3",
+        "potter/cloneable-interface": "dev-main",
+        "potter/cloneable-trait": "dev-main"
     },
     "license": "MIT",
     "authors": [
