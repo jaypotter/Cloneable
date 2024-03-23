@@ -1,17 +1,11 @@
 {
     "name": "potter/cloneable",
     "description": "PHP Cloneable Implementation",
-    "type": "library",
+    "type": "metapackage",
     "require": {
-        "php": "^8.3",
-        "potter/container": "dev-main"
+        "php": "^8.3"
     },
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Potter\\Cloneable\\": "src/Potter/Cloneable/"
-        }
-    },
     "authors": [
         {
             "name": "Jay Potter",
