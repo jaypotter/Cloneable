@@ -7,6 +7,10 @@
         "potter/cloneable-interface": "dev-main",
         "potter/cloneable-trait": "dev-main"
     },
+    "suggest": {
+        "potter/components": "dev-main",
+        "potter/framework": "dev-main"
+    },
     "license": "MIT",
     "authors": [
         {
