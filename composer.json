@@ -4,8 +4,8 @@
     "type": "metapackage",
     "require": {
         "php": "^8.3",
-        "potter/cloneable-interface": "dev-main",
-        "potter/cloneable-trait": "dev-main"
+        "potter/cloneable-interface": "v0.0.1-alpha@alpha",
+        "potter/cloneable-trait": "v0.0.1-alpha@alpha"
     },
     "suggest": {
         "potter/components": "dev-main",
@@ -18,5 +18,5 @@
             "email": "j@ypotter.ca"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "alpha"
 }
